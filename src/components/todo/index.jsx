@@ -10,7 +10,6 @@ import TodoDoneItem from "./TodoDoneItem";
 import { TODOS } from "../../const";
 
 export class Todo extends Component {
-  
   state = {
     todos: JSON.parse(localStorage.getItem(TODOS)) || [
       {
